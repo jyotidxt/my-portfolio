@@ -1,0 +1,467 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Popins', 'sans-serif';
+}
+
+body {
+    width: 50%;
+    background-color: #000;
+}
+
+.h h3 {
+    padding: 3vh 0 0 0;
+    color: rgb(226, 239, 37);
+    position: sticky;
+    font-size: 2rem;
+    width: 12rem;
+    scroll-behavior: smooth;
+
+}
+
+.navbar {
+    display: grid;
+}
+
+
+.nav-items {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 10rem;
+    padding-left: 2rem;
+}
+
+ul {
+    list-style: none;
+}
+
+.navbar ul li a {
+    color: #fff;
+    font-size: 2rem;
+    padding: 1rem;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover {
+    color: rgb(226, 239, 37);
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#hero {
+    margin: 11rem 2px 0px 0rem;
+    font-size: 2rem;
+    color: white;
+}
+
+.name {
+color:rgb(226, 239, 37);
+
+}
+
+.para2 {
+    margin: 2rem 0 0 10rem;
+}
+
+img {
+    height: 33rem;
+    width: 20rem;
+    margin-top: -14rem;
+    margin-left: 12rem;
+    border: 2px solid rgb(21, 183, 223);
+    box-shadow: 3px 2px 14px 12px rgb(12, 13, 13);
+    border-radius: 6rem;
+}
+
+.links {
+    display: grid;
+    grid-template-columns: 5rem 5rem 5rem;
+}
+
+.links i {
+    padding-left: 5rem;
+    margin-left: 6rem;
+    color:white;
+    cursor: pointer;
+}
+
+.resume .bt {
+    margin: 19rem 0 0 12rem;
+    font-size: 1rem;
+    width: 130%;
+    box-shadow: 3px 2px 5px 5px yellow;
+    padding: 0.9rem;
+}
+
+h4 {
+    margin: 10rem 0 0 5rem;
+    font-size: 5rem;
+    width: 100%;
+}
+
+.skill-items {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: 6rem;
+    margin: 8rem;
+}
+.skill-items i {
+    color: white;
+    margin-left: 8rem;
+}
+.skill-items li {
+    padding: 0.5rem 2rem 2rem 12rem;
+    color: #fff;
+}
+
+.animated-box {
+    height: 22rem;
+    animation: myAnimation 2s linear;
+}
+
+@keyframes myAnimation {
+    0% {
+        transform: translateY(50px);
+    }
+
+    50% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.animated-box2 {
+    height: 22rem;
+    animation: myAnimation2 2s linear;
+}
+
+@keyframes myAnimation2 {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(50px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+
+.edu-mainh {
+    margin-left: -1.8rem;
+    margin-bottom: 1.4rem;
+    color: white;
+}
+
+.grad-p {
+    text-transform: uppercase;
+    margin-top: 5rem;
+}
+
+.class-12,
+.graduation {
+    height: 49rem;
+    width: 33rem;
+    border: 2px solid skyblue;
+    margin-bottom: 5rem;
+    padding: 2rem;
+    box-shadow: 3px 2px 12px 12px rgb(226, 239, 37);
+}
+#sec3{
+    padding-left: 2rem;
+}
+.box1{
+ width: 22rem;
+}
+h1 {
+    font-size: 2.5rem;
+    padding-top: 8rem;
+    padding-bottom: 0.5rem;
+}
+
+.address-p {
+    padding-bottom: 0;
+    padding-top: 0.5rem;
+}
+
+
+.contact-me,
+p {
+    text-align: center;
+    padding-bottom: 5rem;
+
+}
+
+.address i {
+    color: white;
+    border: 1.2rem solid rgb(226, 239, 37);
+    border-radius: 22rem;
+    text-align: center;
+background: rgb(226, 239, 37);;
+}
+
+h5 {
+    text-decoration: underline;
+    margin: 1rem;
+    font-size: 2rem;
+}
+
+.box1 {
+    color: white;
+    height: 20rem;
+    width: 32rem;
+    border: 2px solid rgb(15, 169, 220);
+    border-radius: 7px;
+    box-shadow:-4px 2px 20px 14px rgb(226, 239, 37)
+}
+
+h2 {
+    margin: 0.5rem 0 0 1rem;
+}
+
+h3 {
+    margin: 0.5rem 0 0 1rem;
+    font-size: 15px;
+}
+
+.box1 p {
+    margin: 1rem 0 0 1rem;
+    padding: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn {
+    border: 2px solid rgb(15, 169, 220);
+    border-radius: 5px;
+    background-color: rgb(226, 239, 37);
+    text-align: center;
+    cursor: pointer;
+    margin-left: 4rem;
+    margin-top: 6rem;
+    width: 25%;
+    height: 15%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bt {
+    border: 2px solid rgb(15, 169, 220);
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 0.5rem 0 0 1rem;
+    width: 27%;
+    height: 15%;
+    text-align: center;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cont-h {
+    font-size: 2rem;
+    margin: 3.5rem -8rem 0 -5rem;
+    padding: 2rem;
+}
+
+.contact-me {
+    margin-left: 7rem;
+    width: 100%;
+}
+
+.address {
+    margin: 4rem 0 0 0rem;
+}
+
+footer {
+    text-align: center;
+}
+
+footer .name {
+    margin-left: 7rem;
+    width: 143%;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+footer p {
+    margin: 5px;
+}
+
+a {
+    text-decoration: none;
+    background: none;
+}
+
+@media (min-width:767px) {
+    .navbar {
+        justify-content: center;
+    }
+
+    .nav-items {
+        margin: -5vh -12vh 0vh 65vh;
+    }
+
+}
+
+#edu-sec {
+    display: flex;
+    flex-direction: column;
+    padding-left: 5rem;
+}
+
+.skill-items {
+    font-size: 4rem;
+}
+
+h4 {
+    font-size: 3rem;
+    padding-left: 15rem;
+    display: flex;
+    color: white;
+}
+
+.box {
+    display: grid;
+    grid-template-columns: 20rem 18rem;
+}
+
+#sec3 {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.pro-h {
+    padding-left: 1rem;
+    margin: 9rem 0 5rem 7rem;
+}
+
+
+.box1 {
+    justify-content: center;
+    align-items: center;
+    margin-left: 5rem;
+    margin-bottom: 4rem;
+    padding: 1rem;
+}
+
+.para-2 {
+    margin-left: -2rem;
+}
+
+.contact-me {
+    padding-left: 11rem;
+    color: white;
+
+}
+
+footer {
+    padding-left: 9rem;
+    width: 115%;
+}
+
+.gradimg {
+    background: url("img/sua2.jpeg");
+    background-size: cover;
+    background-position: -5rem;
+    background-repeat: no-repeat;
+    color: black;
+
+}
+
+.sclimg {
+    background: url("img/sgs2.jpg");
+    background-size: cover;
+    background-position: -3rem;
+    background-repeat: no-repeat;
+    color: black;
+
+}
+
+
+
+
+
+
+@media (min-width:1467px) {
+    .navbar {
+        justify-content: center;
+    }
+
+    .box {
+        display: grid;
+        grid-template-columns: 19rem 19rem;
+    }
+
+    #sec3 h4 {
+        margin-top: 12rem;
+        margin-left: 12rem;
+    }
+
+    #sec3 {
+        height: 120rem;
+        display: grid;
+        grid-template-columns: 29rem 29rem 29rem;
+        grid-template-rows: 28rem 28rem 28rem;
+    }
+
+    .box1 {
+        justify-content: center;
+        align-items: center;
+        padding: 2rem;
+        margin-top: 8rem;
+        height: 17rem;
+        width: 19rem;
+    }
+
+    .skill-items {
+        margin-left: 21rem;
+        font-size: 3rem;
+    }
+
+    h4 {
+        font-size: 3rem;
+    }
+
+    .contact-me {
+        margin-left: 12rem;
+    }
+
+    .edu-box {
+       display: flex;
+       flex-direction: row;
+       height: 33rem;
+       width: 64rem;
+       margin-left: 12rem;
+    }
+    .graduation, .class-12{
+        height: 25rem;
+        margin: 4rem;
+    }
+
+    .edu-mainh {
+        margin-top: 0rem;
+        margin-left: 22rem;
+    }
+
+    .grad-p {
+        font-size: 1.5rem;
+    }
+
+    h2,
+    h5 {
+        font-size: 2rem;
+    }
+}
+
+
+
+
